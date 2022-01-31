@@ -1,0 +1,13 @@
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\bin\Debug\AutoLuckyUnicornSelenium.exe.config
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\bin\Debug\AutoLuckyUnicornSelenium.exe
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\bin\Debug\AutoLuckyUnicornSelenium.pdb
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\bin\Debug\WebDriver.dll
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.csproj.AssemblyReference.cache
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.csproj.SuggestedBindingRedirects.cache
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.Form1.resources
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.Properties.Resources.resources
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.csproj.GenerateResource.cache
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.csproj.CoreCompileInputs.cache
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.csproj.CopyComplete
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.exe
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.pdb
