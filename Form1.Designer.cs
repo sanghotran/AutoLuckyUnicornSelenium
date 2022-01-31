@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btn_Open = new System.Windows.Forms.Button();
             this.btn_SetTime = new System.Windows.Forms.Button();
             this.txt_TimeCount = new System.Windows.Forms.TextBox();
@@ -466,6 +467,7 @@
             this.Controls.Add(this.btn_SetTime);
             this.Controls.Add(this.btn_Open);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "AutoLuckyUnicorn";
