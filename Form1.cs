@@ -66,7 +66,7 @@ namespace AutoLuckyUnicornSelenium
         {
             ChromeOptions option = new ChromeOptions();
 
-            option.AddArgument("user-data-dir=" + @"E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\bin\Debug\profile\UserData");
+            option.AddArgument("user-data-dir=" + @"C:\UserData");
             ChromeDriver chromeDriver = new ChromeDriver(option);
 
             chromeDriver.Url = "https://app.luckyunicorn.io/";
@@ -209,7 +209,7 @@ namespace AutoLuckyUnicornSelenium
                                             state = State.Medium;
                                             break;
                                         case "https://app.luckyunicorn.io/assets/elements/Earth.svg":
-                                            /*_CheckStatus(14);
+                                            _CheckStatus(14);
                                             if (pet.status == "Yes")
                                             {
                                                 for (int j = 0; j < 13; j++)
@@ -221,7 +221,7 @@ namespace AutoLuckyUnicornSelenium
                                                 state = State.Confirm;
                                                 flag_battle = true;
                                                 break;
-                                            }*/
+                                            }
                                             state = State.Medium;
                                             break;
                                         case "https://app.luckyunicorn.io/assets/elements/Water.svg":
