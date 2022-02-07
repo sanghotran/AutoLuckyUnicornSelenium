@@ -243,7 +243,7 @@ namespace AutoLuckyUnicornSelenium
                                             {
                                                 for (int j = 0; j < 7; j++)
                                                     swap.Click();
-                                                status7.Text = "No";
+                                                status8.Text = "No";
                                                 Thread.Sleep(1000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
