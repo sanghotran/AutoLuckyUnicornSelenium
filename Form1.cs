@@ -138,6 +138,7 @@ namespace AutoLuckyUnicornSelenium
                                     AutoControl.SendKeyBoardPress(hWnd, VKeys.VK_RETURN);
                                     if (flag_battle == true)
                                     {
+                                        flag_battle = false;
                                         state = State.Recive;
                                     }
                                     else
