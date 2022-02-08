@@ -81,6 +81,7 @@ namespace AutoLuckyUnicornSelenium
                         switch(state)
                         {
                             case State.Idle:
+                                //TimeCount = 240;
                                 for (int i = 0; i < TimeCount; i++)
                                 {
                                     Thread.Sleep(60000);
@@ -115,7 +116,11 @@ namespace AutoLuckyUnicornSelenium
                                     Recive.Click();
                                     count -= 1;
                                     if(count == 0)
+                                    {
                                         state = State.Idle;
+                                        TimeCount = 240;
+                                        time.Text = TimeCount.ToString();
+                                    }
                                     else
                                         state = State.Play;
                                 }
