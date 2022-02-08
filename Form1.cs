@@ -126,7 +126,7 @@ namespace AutoLuckyUnicornSelenium
                             case State.Confirm:
                                 try
                                 {
-                                    Thread.Sleep(20000);
+                                    Thread.Sleep(10000);
                                     //var image = chromeDriver.FindElement(By.XPath(""));
                                     var hWnd = IntPtr.Zero;
                                     hWnd = AutoControl.FindWindowHandle(null, "MetaMask Notification");
@@ -143,7 +143,7 @@ namespace AutoLuckyUnicornSelenium
                                     }
                                     else
                                     {
-                                        Thread.Sleep(20000);
+                                        Thread.Sleep(10000);
                                         state = State.Play;
                                     }
                                 }
@@ -165,7 +165,7 @@ namespace AutoLuckyUnicornSelenium
                                             if(pet.status == "Yes")
                                             {
                                                 status1.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -181,7 +181,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 8; j++)
                                                     swap.Click();
                                                 status9.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -197,7 +197,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 12; j++)
                                                     swap.Click();
                                                 status13.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -216,7 +216,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 13; j++)
                                                     swap.Click();
                                                 status14.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -231,7 +231,7 @@ namespace AutoLuckyUnicornSelenium
                                             {
                                                 swap.Click();
                                                 status2.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -244,7 +244,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 7; j++)
                                                     swap.Click();
                                                 status8.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -257,7 +257,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 11; j++)
                                                     swap.Click();
                                                 status12.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -270,7 +270,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 14; j++)
                                                     swap.Click();
                                                 status15.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -283,7 +283,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 3; j++)
                                                     swap.Click();
                                                 status4.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -296,7 +296,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 4; j++)
                                                     swap.Click();
                                                 status5.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -312,7 +312,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 5; j++)
                                                     swap.Click();
                                                 status6.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -325,7 +325,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 9; j++)
                                                     swap.Click();
                                                 status10.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -338,7 +338,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 2; j++)
                                                     swap.Click();
                                                 status3.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -351,7 +351,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 6; j++)
                                                     swap.Click();
                                                 status7.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -364,7 +364,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 10; j++)
                                                     swap.Click();
                                                 status11.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[1]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -393,7 +393,7 @@ namespace AutoLuckyUnicornSelenium
                                             if (pet.status == "Yes")
                                             {
                                                 status1.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[2]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -412,7 +412,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 12; j++)
                                                     swap.Click();
                                                 status13.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[2]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -434,7 +434,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 3; j++)
                                                     swap.Click();
                                                 status4.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[2]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -447,7 +447,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 4; j++)
                                                     swap.Click();
                                                 status5.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[2]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -463,7 +463,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 2; j++)
                                                     swap.Click();
                                                 status3.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[2]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -476,7 +476,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 6; j++)
                                                     swap.Click();
                                                 status7.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[2]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
@@ -489,7 +489,7 @@ namespace AutoLuckyUnicornSelenium
                                                 for (int j = 0; j < 10; j++)
                                                     swap.Click();
                                                 status11.Text = "No";
-                                                Thread.Sleep(1000);
+                                                Thread.Sleep(2000);
                                                 var battle = chromeDriver.FindElement(By.XPath("//*[@id=\"root\"]/main/section/div[1]/ul/li[2]/div/div[2]/button[1]"));
                                                 battle.Click();
                                                 state = State.Confirm;
