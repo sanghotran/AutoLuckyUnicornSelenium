@@ -96,10 +96,11 @@ namespace AutoLuckyUnicornSelenium
                                 {
                                     _ResetStatus2();
                                     Time8h = 2;
+                                    count = 15;
                                 }
                                 state = State.Play;
                                 _ResetStatus();
-                                count = 15;
+                                count = 14;
                                 break;
                             case State.Play:
                                 chromeDriver.Url = "https://app.luckyunicorn.io/play-to-earn";
