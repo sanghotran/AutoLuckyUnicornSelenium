@@ -10,3 +10,4 @@ E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSe
 E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.csproj.CopyComplete
 E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.exe
 E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.pdb
+E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.csproj.AssemblyReference.cache

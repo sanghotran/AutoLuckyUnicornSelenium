@@ -122,7 +122,7 @@ namespace AutoLuckyUnicornSelenium
                             case State.Recive:
                                 try
                                 {
-                                    var Recive = chromeDriver.FindElement(By.XPath("/html/body/div[13]/div/div/section/div/button[2]"));
+                                    var Recive = chromeDriver.FindElement(By.XPath("/html/body/div[16]/div/div/section/div/button[2]"));
                                     Recive.Click();
                                     count -= 1;
                                     if(count == 0)
@@ -532,7 +532,7 @@ namespace AutoLuckyUnicornSelenium
         private void Form1_Load(object sender, EventArgs e)
         {
             state = State.Idle;
-            count = 15;
+            //count = 15;
             Time8h = 2;
         }
 
