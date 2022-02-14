@@ -104,7 +104,7 @@ namespace AutoLuckyUnicornSelenium
                             case State.Play:
                                 chromeDriver.Url = "https://app.luckyunicorn.io/play-to-earn";
                                 chromeDriver.Navigate();
-                                chromeDriver.FindElement(By.XPath("/html/body/div[17]/div/div/section/div/button")).Click();
+                                chromeDriver.FindElement(By.XPath("/html/body/div[20]/div/div/section/div/button")).Click();
                                 state = State.Easy;
                                 Thread.Sleep(5000);
                                 break;
