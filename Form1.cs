@@ -41,7 +41,6 @@ namespace AutoLuckyUnicornSelenium
             Easy,
             Check,
             CheckRefresh,
-            CheckPet,
             Battle,
             Roll,
             Medium,
