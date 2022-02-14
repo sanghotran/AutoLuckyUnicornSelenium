@@ -2,7 +2,6 @@ E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\bin\Debug\AutoLuckyUnicornSe
 E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\bin\Debug\AutoLuckyUnicornSelenium.exe
 E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\bin\Debug\AutoLuckyUnicornSelenium.pdb
 E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\bin\Debug\WebDriver.dll
-E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.csproj.AssemblyReference.cache
 E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.csproj.SuggestedBindingRedirects.cache
 E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.Form1.resources
 E:\Project\Program\C_Sharp\AutoLuckyUnicornSelenium\obj\Debug\AutoLuckyUnicornSelenium.Properties.Resources.resources
