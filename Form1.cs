@@ -75,7 +75,7 @@ namespace AutoLuckyUnicornSelenium
 
             chromeDriver.Url = "https://app.luckyunicorn.io/";
             chromeDriver.Navigate();
-            chromeDriver.FindElement(By.XPath("/html/body/div[17]/div/div/section/div/button")).Click();
+            chromeDriver.FindElement(By.XPath("/html/body/div[20]/div/div/section/div/button")).Click();
             DialogResult result = MessageBox.Show("Vui lòng nhập pass metamask.\nNhập xong rồi hãy nhấn Yes", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.None, MessageBoxDefaultButton.Button1, (MessageBoxOptions)0x40000);
             switch(result)
             {
