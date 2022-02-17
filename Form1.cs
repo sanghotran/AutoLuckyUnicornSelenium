@@ -122,7 +122,7 @@ namespace AutoLuckyUnicornSelenium
                             case State.Recive:
                                 try
                                 {
-                                    var Recive = chromeDriver.FindElement(By.XPath("/html/body/div[16]/div/div/section/div/button[2]"));
+                                    var Recive = chromeDriver.FindElement(By.XPath("/html/body/div[7]/div/div/section/div/button[2]"));
                                     Recive.Click();
                                     count -= 1;
                                     if(count == 0)
