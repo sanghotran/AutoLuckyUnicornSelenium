@@ -55,7 +55,7 @@ namespace AutoLuckyUnicornSelenium
         public ChromeOptions chromeOptions;
         public Action action;
 
-        public const int TIME_BATTLE = 3500;
+        public const int TIME_BATTLE = 4000;
 
         public bool time_finish = false;
         public bool flag_finish = false;
