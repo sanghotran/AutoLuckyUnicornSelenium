@@ -141,7 +141,7 @@ namespace AutoLuckyUnicornSelenium
                             case State.Confirm:
                                 try
                                 {
-                                    Thread.Sleep(10000);
+                                    Thread.Sleep(15000);
                                     //var image = chromeDriver.FindElement(By.XPath(""));
                                     var hWnd = IntPtr.Zero;
                                     hWnd = AutoControl.FindWindowHandle(null, "MetaMask Notification");
