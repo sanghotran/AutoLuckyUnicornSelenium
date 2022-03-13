@@ -145,7 +145,7 @@ namespace AutoLuckyUnicornSelenium
                                     //var image = chromeDriver.FindElement(By.XPath(""));
                                     var hWnd = IntPtr.Zero;
                                     hWnd = AutoControl.FindWindowHandle(null, "MetaMask Notification");
-                                    for (int i = 0; i < 8; i++)
+                                    for (int i = 0; i < 10; i++)
                                     {
                                         AutoControl.SendKeyBoardPress(hWnd, VKeys.VK_TAB);
                                         Thread.Sleep(200);
